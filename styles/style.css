@@ -52,7 +52,7 @@ nav .active a, nav a:hover{
     flex-direction: column;
     height: 50vh;
     padding: 3em 0em 3em 0em;
-    background: black url('assets/img/vila.jpg') center center no-repeat fixed;
+    background: black url('assets/img/vila.jpg') top no-repeat fixed;
     background-size: cover;
 }
 
@@ -222,9 +222,11 @@ nav .active a, nav a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     flex-flow: column;
+    background: url(../assets/img/vila.jpg) bottom no-repeat fixed;
+    background-size: cover;
 }
 footer{
     background-color: #1e1e1e;

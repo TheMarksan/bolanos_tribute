@@ -22,21 +22,21 @@
     }
     section.info2 {
         position: relative;
-        padding-top: 20px;
+        padding-top: 15px;
         width: 100vw;
         height: 88vh;
     }
     section.info2 > img {
-        width: 180px;
-        height: 180px;
+        width: 200px;
+        height: 200px;
         position: absolute;
         margin: auto;
-        top: 0; bottom: 60%;
+        top: 0; bottom: 55%;
         left: 0; right: 0;
     }
     section.info2 > p {
         display: block;
-        margin-top: 150px;
+        margin-top: 60px;
         width: 80vw;
         font-size: 14px;
         text-indent: 15px;
@@ -49,8 +49,8 @@
         height: 88vh;
     }
     section.info3 > img {
-        width: 180px;
-        height: 180px;
+        width: 200px;
+        height: 200px;
         position: absolute;
         margin: auto;
         top: 0; bottom: 60%;
@@ -58,7 +58,7 @@
     }
     section.info3 > p {
         display: block;
-        margin-top: 180px;
+        margin-top: 120px;
         width: 80vw;
         font-size: 16px;
         text-indent: 15px;
@@ -66,7 +66,8 @@
     }
 
     section.perso {
-        height: 100vh;
+        height: 80vh;
+        width: 100%;
     }
 }
 
