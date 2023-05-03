@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    div.menu > nav > ul > li > a {
+        font-size: 12px;
+    }
+    div.info1{
+        width: 100vw;
+        height: 81.8vh;
+    }
+    div.info1 h1{
+        font-size: 20px;
+        text-indent: 30px;
+    }
+    div.info1 p{
+        font-size: 12px;
+    }
+
+    .info_tittle {
+        font-size: 25px;
+        padding: 10px;
+    }
+    section.info2 {
+        position: relative;
+        padding-top: 20px;
+        width: 100vw;
+        height: 88vh;
+    }
+    section.info2 > img {
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        margin: auto;
+        top: 0; bottom: 60%;
+        left: 0; right: 0;
+    }
+    section.info2 > p {
+        display: block;
+        margin-top: 150px;
+        width: 80vw;
+        font-size: 14px;
+        text-indent: 15px;
+        text-align: justify;
+    }
+    section.info3 {
+        position: relative;
+        padding-top: 20px;
+        width: 100vw;
+        height: 88vh;
+    }
+    section.info3 > img {
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        margin: auto;
+        top: 0; bottom: 60%;
+        left: 0; right: 0;
+    }
+    section.info3 > p {
+        display: block;
+        margin-top: 180px;
+        width: 80vw;
+        font-size: 16px;
+        text-indent: 15px;
+        text-align: justify;
+    }
+
+    section.perso {
+        height: 100vh;
+    }
+}
+
