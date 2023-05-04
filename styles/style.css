@@ -91,6 +91,10 @@ nav .active a, nav a:hover{
     background-color: #1e1e1e;
 }
 
+.material-symbols-outlined {
+    display: none;
+}
+
 .info2 img, .info3 img{
     background-color: transparent;
     position: relative;
@@ -129,14 +133,11 @@ nav .active a, nav a:hover{
 }
 
 .widget_box:hover{
-    width: 30vw;
+    width: 500px;
     transition-duration: 1s;
     border-radius: 12% 2% 2% 12%;
 }
 
-.box{
-    display: flex;
-}
 .info_tittle{
     font-family: 'Chavo', Courier, monospace;
     background-color: #1e1e1e;
@@ -170,6 +171,9 @@ nav .active a, nav a:hover{
     height: 2px;
     padding-top: 20px;
 
+}
+.box{
+    display: flex;
 }
 .box img{
     box-shadow: 3px 3px 6px #1e1e1e5e;
@@ -218,15 +222,17 @@ nav .active a, nav a:hover{
     background-color: #1e1e1e;
     color: #fff;
 }
+iframe {
+    display: none;
+}
 .perso{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding-top: 2em;
     padding-bottom: 2em;
     flex-flow: column;
-    background: url(../assets/img/vila.jpg) bottom no-repeat fixed;
-    background-size: cover;
 }
 footer{
     background-color: #1e1e1e;
@@ -274,7 +280,7 @@ footer a:hover{
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-  }
+}
   
   
 @media (max-width: 600px) {
@@ -365,10 +371,6 @@ footer a:hover{
         margin-bottom: 10px;
         width: 20px;
         height: 2px;
-    }
-    
-    .perso{
-        margin-right: 3em;
     }
     footer p{
         font-size: 10px;

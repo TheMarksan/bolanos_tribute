@@ -17,6 +17,7 @@
     }
 
     .info_tittle {
+        height: 10%;
         font-size: 25px;
         padding: 10px;
     }
@@ -66,8 +67,33 @@
     }
 
     section.perso {
-        height: 80vh;
-        width: 100%;
+        display: none;
+    }
+
+    iframe {
+        display: block;
+        height: 90vh;
+        width: 100vw;
+    }
+
+    .material-symbols-outlined {
+        display: block;
+        position: absolute;
+        margin: auto;
+        text-decoration: none;
+        font-size: 75px;
+        color: #bda169;
+        right: 40%; bottom: 12%;
+        opacity: 75%;
+    }
+    .material-symbols-outlined:hover {
+        opacity: 100%;
+    }
+    #step2 {
+        height: 100vh;
+    }
+    #step2 p {
+        margin-top: 150px;
     }
 }
 
