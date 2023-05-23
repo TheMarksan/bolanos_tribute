@@ -41,6 +41,8 @@ body {
     width: 90px;
     height: 90px;
     border-radius: 10%;
+    object-fit: cover;
+    object-position: center top;
 }
 .widget_box .img_text{
     display: flex;
@@ -56,8 +58,8 @@ body {
     display: none;
 }
 .img_text p{
-    font-size: 14px;
-    font-family: 'ChavoL', Courier, monospace;
+    font-size: 12px;
+    font-family: 'Sriracha', cursive;
     text-align: justify;
 }
 .img_text h1{

@@ -3,7 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
-	font-family: 'Raleway', sans-serif;
+	font-family: sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -39,6 +39,7 @@ nav a{
     text-transform: uppercase;
     color: #727272;
     font-family: 'ChavoL', Courier, monospace;
+    font-weight: normal;
 }
 nav .active a, nav a:hover{
     background-color: #bda169;
@@ -57,7 +58,7 @@ nav .active a, nav a:hover{
 }
 
 .info1 h1{
-    font-family: 'Chavo', Courier, monospace;
+    font-family: 'ChavoL', Courier, monospace;
     color: #fff;
     font-size: 2vw;
     text-indent: 50px;
@@ -75,9 +76,9 @@ nav .active a, nav a:hover{
 .info1 p, .info2 p, .info3 p{
     display: flex;
     color:rgb(162, 168, 168);
-    font-family: 'ChavoL', Courier, monospace;
+    font-family: 'Sriracha', cursive;
     font-weight: normal;
-    font-size: 1.1vw;
+    font-size: 1vw;
     width: 50%;
     align-items: center;
     text-align: justify;
@@ -181,6 +182,8 @@ nav .active a, nav a:hover{
     border: 1px solid #bda169;
     max-width: 31em;
     border-radius: 10%;
+    object-fit: cover;
+    object-position: center top;
 }
 .widget_box .img_text{
     display: flex;
@@ -196,7 +199,7 @@ nav .active a, nav a:hover{
     display: none;
 }
 .img_text p{
-    font-family: 'ChavoL', Courier, monospace;
+    font-family: 'Sriracha', cursive;
     text-align: justify;
 }
 .img_text h1{
